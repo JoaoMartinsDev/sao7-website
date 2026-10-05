@@ -1,0 +1,1 @@
+export enum SpaceEnum {"xxs", "xs", "s", "sm", "base", "m", "l", "xl", "xxl", "xxl2", "xxl3"}
