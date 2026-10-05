@@ -1,7 +1,12 @@
 import './menu.scss'
 
-const Menu = ({children}) => {
-    return <nav aria-label="Main navigation" className='menu'>
+interface MenuProps extends React.ComponentPropsWithRef<'a'> {
+  children?: React.ReactNode;
+}
+
+
+const Menu = ({children, ...props}: MenuProps) => {
+    return <nav aria-label="Main navigation" className='menu' {...props}>
     <ul>
         {children}
     </ul>

@@ -1,7 +1,16 @@
-import './menu-item.scss'
+import React from 'react';
+import './menu-item.scss';
 
-const MenuItem = ({children, ...props}) => {
-    return <li className='menu-item'><a {...props}>{children}</a></li>
+interface MenuItemProps extends React.ComponentPropsWithRef<'a'> {
+  children?: React.ReactNode;
 }
 
-export default MenuItem
+const MenuItem = ({ children, ...props }: MenuItemProps) => {
+  return (
+    <li className="menu-item">
+      <a {...props}>{children}</a>
+    </li>
+  );
+};
+
+export default MenuItem;
