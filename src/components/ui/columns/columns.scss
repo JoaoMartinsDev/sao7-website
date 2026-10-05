@@ -1,0 +1,20 @@
+.columns{
+    display: grid;
+}
+
+.columns-2{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.columns-3{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.columns-4{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* Replace with automatic Mixin */
+.gap-base{
+    
+}

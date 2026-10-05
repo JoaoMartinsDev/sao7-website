@@ -1,0 +1,9 @@
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: var(--semi-bold);
+
+    &:hover{
+        color: var(--color-primary);
+    }
+}
