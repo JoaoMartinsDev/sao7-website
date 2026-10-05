@@ -1,0 +1,22 @@
+.btn{
+    padding: 0 var(--space-base);
+    border-radius: var(--border-radius-m);
+    height: 40px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+
+/* Variants*/
+.btn--primary{
+    background-color: var(--color-primary);
+    color: var(--color-neutral-0);
+    border: var( --border-s-primary);
+}
+
+.btn--primary:hover{
+    background-color: var(--color-primary-dark);
+    border: var( --border-s-primary-dark);
+}

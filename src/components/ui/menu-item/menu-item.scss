@@ -1,0 +1,33 @@
+.menu-item{
+    height: 50px;
+    padding: 0 var(--space-base);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.menu-item:hover{
+    cursor: pointer;
+}
+
+.menu-item::after{
+    content: "";
+    background: var(--color-primary);
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    opacity: 0;
+    position: absolute;
+    transition: opacity .3s ease;
+    width: 100%;
+}
+
+.menu-item:hover::after{
+    opacity: 1;
+}

@@ -1,0 +1,21 @@
+@use "./variables" as variables;
+
+@mixin generate-gap-utilities {
+  @each $name, $value in variables.$spaces {
+
+    .gap-#{$name} {
+      gap: $value;
+    }
+
+    .gap-row-#{$name} {
+      row-gap: $value;
+    }
+
+    .gap-col-#{$name} {
+      column-gap: $value;
+    }
+  }
+}
+
+@include generate-gap-utilities;
+
