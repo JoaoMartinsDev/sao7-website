@@ -1,0 +1,27 @@
+/*! Headings */
+.heading1{
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-bold);
+}
+.heading2{
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-semi-bold);
+}
+.heading3{
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-bold);
+}
+.heading4{
+    font-size: var(--font-size-h4);
+    font-weight: var(--font-semi-bold);
+}
+.heading5{
+    font-size: var(--font-size-h5);
+    font-weight: var(--font-bold);
+}
+/*! Display */
+.flex-center{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

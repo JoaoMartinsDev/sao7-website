@@ -1,0 +1,91 @@
+:root{
+    /*! Typography - Size */
+    $font-size-h1:var(--font-size-h1);
+    $font-size-h2:var(--font-size-h2);
+    $font-size-h3:var(--font-size-h3);
+    $font-size-h4:var(--font-size-h4);
+    $font-size-h5:var(--font-size-h5);
+    $font-size-h6:var(--font-size-h6);
+    $font-size-display:var(--font-size-display);
+    $font-size-base:var(--font-size-base);
+    $font-size-s:var(--font-size-s);
+    $font-size-xs:var(--font-size-xs);
+    $font-size-label:var(--font-size-label);
+     /*! Typography - Weight */
+    $font-light:var(--font-light);
+    $font-regular:var(--font-regular);
+    $font-bold:var(--font-bold);
+    $font-semi-bold:var(--font-semi-bold);
+    /*! Color - Brand */
+    $color-primary-lighter:var(--color-primary-lighter);
+    $color-primary-light:var(--color-primary-light);
+    $color-primary: var(--color-primary);
+    $color-primary-dark:var(--color-primary-dark);
+    $color-primary-darker:var(--color-primary-darker);
+    $color-primary-selected:var(--color-primary-selected);
+    $color-primary-lightest:var(--color-primary-lightest);
+    /*! Color - Focus */
+    $color-focus-outer:var(color-focus-outer);
+    $color-focus-inner:var(color-focus-inner);
+    /*! Color - Neutral */
+    $color-neutral-0:var(color-neutral-0);
+    $color-neutral-1:var(color-neutral-1);
+    $color-neutral-2:var(color-neutral-2);
+    $color-neutral-3:var(color-neutral-3);
+    $color-neutral-4:var(color-neutral-4);
+    $color-neutral-5:var(color-neutral-5);
+    $color-neutral-6:var(color-neutral-6);
+    $color-neutral-7:var(color-neutral-7);
+    $color-neutral-8:var(color-neutral-8);
+    $color-neutral-9:var(color-neutral-9);
+    $color-neutral-10:var(color-neutral-10);    
+    /*! Color - Semantic */
+    $color-error-light:var(--color-error-light);
+    $color-error:var(--color-error);
+    $color-warning-light:var(--color-warning-light);
+    $color-warning:var(--color-warning);
+    $color-success-light:var(--color-success-light);
+    $color-success:var(--color-success);
+    $color-info-light:var(--color-info-light);
+    $color-info:var(--color-info);
+    /*! Overlays */
+    $overlay-bg:var(--overlay-bg);
+    /*! Space - Sizes */
+    $space-xxs:var(--space-xxs);
+    $space-xs:var(--space-xs);
+    $space-s:var(--space-s);
+    $space-sm:var(--space-sm);
+    $space-base:var(--space-base);
+    $space-m:var(--space-m);
+    $space-l:var(--space-l);
+    $space-xl:var(--space-xl);
+    $space-xxl:var(--space-xxl);
+    $space-xxl2:var(--space-xxl2);
+    $space-xxl3:var(--space-xxl3);
+    /*! Border Radius */
+    $border-radius-s:var(--border-radius-s);
+    $border-radius-m:var(--border-radius-m);
+    $border-radius-l:var(--border-radius-l);
+    $border-radius-round:var(--border-radius-round);
+    $border-radius-circle:var(--border-radius-circle);
+    /*! Border Size */
+    $border-size-none:var(--border-size-none);
+    $border-size-s:var(--border-size-s);
+    $border-size-m:var(--border-size-m);
+    $border-size-l:var(--border-size-l);
+    /*! Elevation / Shadow */
+    --shadow-none:none;
+    $shadow-xs:var(--shadow-xs);
+    $shadow-s:var(--shadow-s);
+    $shadow-m:var(--shadow-m);
+    $shadow-l:var(--shadow-l);
+    $shadow-xl:var(--shadow-xl);
+    /*! App Settings */
+    $header-color:var(--header-color);
+    $header-size:var(--header-size);
+    $color-bg-body:var(--color-bg-body);
+    $header-size-content:var(--header-size-content);
+    $side-menu-size:var(--side-menu-size);
+    $bottom-bar-size:var(--bottom-bar-size);
+    $footer-height:var(--footer-height);
+}
