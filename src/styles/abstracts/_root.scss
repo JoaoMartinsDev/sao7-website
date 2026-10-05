@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/*! =================================================================================
+0. Root - CSS Variables
+===================================================================================== */
+:root{
+    /*! Typography - Size */
+    --font-size-h1:32px;
+    --font-size-h2:28px;
+    --font-size-h3:26px;
+    --font-size-h4:22px;
+    --font-size-h5:20px;
+    --font-size-h6:18px;
+    --font-size-display:36px;
+    --font-size-base:16px;
+    --font-size-s:14px;
+    --font-size-xs:12px;
+    --font-size-label:11px;
+    /*! Typography - Weight */
+    --font-light:300;
+    --font-regular:400;
+    --font-semi-bold:600;
+    --font-bold:700;
+    /*! Color - Brand */
+    --color-primary-lighter:#d8a098;
+    --color-primary-light:#ca6d5e;
+    --color-primary:#bb3c29;
+    --color-primary-dark:#963020;
+    --color-primary-dark:#50130a;
+    --color-primary-selected:rgba(20, 110, 245, 0.12);
+    --color-primary-lightest:linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+    /*! Color - Focus */
+    --color-focus-outer:#ffd337;
+    --color-focus-inner:var(--color-neutral-10);
+    /*! Color - Neutral */
+    --color-neutral-0:#ffffff;
+    --color-neutral-1:#f5f6f7;
+    --color-neutral-2:#eff0f3;
+    --color-neutral-3:#eceff1;
+    --color-neutral-4:#e0e4e7;
+    --color-neutral-5:#ced2d5;
+    --color-neutral-6:#a7adb3;
+    --color-neutral-7:#696f75;
+    --color-neutral-8:#50565c;
+    --color-neutral-9:#262a2f;
+    --color-neutral-10:#0f1112;
+    /*! Color - Semantic */
+    --color-error-light:#fceaea;
+    --color-error:#dc2020;
+    --color-warning-light:#fdf6e5;
+    --color-warning:#e9a100;
+    --color-success-light:#eaf3eb;
+    --color-success:#29823b;
+    --color-info-light:#e5f5fc;
+    --color-info:#017aad;
+    /*! Overlays */
+    --overlay-bg:rgba(0, 0, 0, 0.25);
+    /*! Space - Sizes */
+    --space-xxs:2px;
+    --space-xs:4px;
+    --space-s:8px;
+    --space-sm:12px;
+    --space-base:16px;
+    --space-m:24px;
+    --space-l:32px;
+    --space-xl:40px;
+    --space-xxl:48px;
+    --space-xxl2:56px;
+    --space-xxl3:72px;
+    /*! Border Radius */
+    --border-radius-s:4px;
+    --border-radius-m:8px;
+    --border-radius-l:12px;
+    --border-radius-xl:16px;
+    --border-radius-round:100px;
+    --border-radius-circle:100%;
+    /*! Border Size */
+    --border-size-none:0;
+    --border-size-s:1px;
+    --border-size-m:2px;
+    --border-size-l:3px;
+    /*! Elevation / Shadow */
+    --shadow-none:none;
+    --shadow-xs:0 1px 2px rgba(0, 0, 0, 0.1);
+    --shadow-s:0 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-m:0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-l:0 6px 8px rgba(0, 0, 0, 0.1);
+    --shadow-xl:0 8px 10px rgba(0, 0, 0, 0.1);
+    /*! App Settings */
+    --header-color:var(--color-neutral-0);
+    --color-bg-body:#f3f6f8;
+    --header-size:56px;
+    --header-size-content:48px;
+    --side-menu-size:300px;
+    --bottom-bar-size:56px;
+    --max-width: 1400px;
+
+    /*! Family Tokens */
+    --border-s-primary: var(--border-size-s) solid var(--color-primary);
+    --border-s-primary-dark: var(--border-size-s) solid var(--color-primary-dark);
+}
